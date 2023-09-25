@@ -1,12 +1,14 @@
 body {
-background-color: lightblue;
-
-.rainbow-text {
-	font-family: Arial;
-	font-weight: bold;
-	font-size: 50px;
-	text-shadow: #A3A3A3 1px 1px 1px;
+  background-color: lightgrey;
+  color: blue;
 }
-.rainbow-text .block-line > span {
-	display: inline-block;
+
+h1 {
+  background-color: black;
+  color: white;
+}
+
+div {
+  background-color: blue;
+  color: white;
 }
