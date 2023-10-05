@@ -1,9 +1,42 @@
 body {
-  background-color: lightgrey;
-  color: blue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-div {
-  background-color: blue;
-  color: white;
+.navbar {
+    display: flex;
+    background-color: #333;
+    color: #fff;
+}
+
+.nav-item {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.nav-item:hover {
+    background-color: #555; /* Change the background color on hover */
+    cursor: pointer;
+}
+
+/* Customize the link colors */
+#home {
+    background-color: #007BFF;
+}
+
+#about {
+    background-color: #6C757D;
+}
+
+#portfolio {
+    background-color: #17A2B8;
+}
+
+#contact {
+    background-color: #28A745;
 }
