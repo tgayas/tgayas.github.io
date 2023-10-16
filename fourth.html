@@ -1,86 +1,97 @@
 <!DOCTYPE html>
 <html>
-  <style>
-    .angry-grid {
-       display: grid; 
-    
-       grid-template-rows: 4rem auto 45px 1fr;
-       grid-template-columns: 16rem auto 1fr 1fr;
-       
-       gap: 2px;
-       height: 100%;
-       
-    }
-      
-    #item-0 {
-    
-       background-color: #6CE7C9; 
-       grid-row-start: 1;
-       grid-column-start: 1;
-    
-       grid-row-end: 3;
-       grid-column-end: 3;
-       
-    }
-    #item-1 {
-    
-       background-color: #D87FA8; 
-       grid-row-start: 3;
-       grid-column-start: 1;
-    
-       grid-row-end: 4;
-       grid-column-end: 3;
-       
-    }
-    #item-2 {
-    
-       background-color: #88CB55; 
-       grid-row-start: 4;
-       grid-column-start: 1;
-    
-       grid-row-end: 5;
-       grid-column-end: 2;
-       
-    }
-    #item-3 {
-    
-       background-color: #79BCBB; 
-       grid-row-start: 1;
-       grid-column-start: 3;
-    
-       grid-row-end: 3;
-       grid-column-end: 4;
-       
-    }
-    #item-4 {
-    
-       background-color: #69E5C9; 
-       grid-row-start: 2;
-       grid-column-start: 4;
-    
-       grid-row-end: 3;
-       grid-column-end: 5;
-       
-    }
-    #item-5 {
-    
-       background-color: #DDB7AB; 
-       grid-row-start: 3;
-       grid-column-start: 3;
-    
-       grid-row-end: 5;
-       grid-column-end: 5;
-       
-    }
-    </style>
-    
-    <div class="angry-grid">
-      <div id="item-0">&nbsp;</div>
-      <div id="item-1">&nbsp;</div>
-      <div id="item-2">&nbsp;</div>
-      <div id="item-3">&nbsp;</div>
-      <div id="item-4">&nbsp;</div>
-      <div id="item-5">&nbsp;</div>
-    </div>
+<head>
+  <title> Ted Joshua Angelo Gayas</title>
+</head>
+<style>
 
-  </html>
+.container {
+  display: grid;
+  max-width: 400px;
+  height: 350px;
+  margin: 150px auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 8px;
+  background-color: white;
+  
+}
+
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  border: 5px solid green;
+  border-radius: 20px;
+  
+}
+
+.item2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  border: 5px solid yellow;
+  border-radius: 20px;
+}
+
+.item3 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  border: 5px solid orange;
+  border-radius: 20px;
+}
+
+
+.item1a {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  border: 5px solid green;
+  border-radius: 20px;
+  
+}
+
+
+.item2a {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  border: 5px solid orange;
+  border-radius: 20px;
+}
+
+
+.item3a {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  border: 5px solid yellow;
+  border-radius: 20px;
+}
+
+
+</style>
+</head>
+<body>
+
+
+<div class="container">
+  <div class="item1"></div>
+  <div class="item2"></div>
+  <div class="item3"></div>
+  <div class="item2a"></div>
+  <div class="item3a"></div>
+  <div class="item1a"></div>
+</div>
+
+
+</body>
+</html>
