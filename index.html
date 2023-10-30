@@ -17,13 +17,13 @@
         <div class="nav-item" id="portfolio">
             <a href="#" class="nav-link">Portfolio</a>
         </div>
-        <div class="nav-item" id="dadjokes">
+        <div class="nav-item" id="contact">
             <a href="#" class="nav-link">Dad Jokes</a>
         </div>
-         <div class="nav-item" id="solarsystemfacts">
+         <div class="nav-item" id="home">
             <a href="third.html" class="nav-link">Solar System Facts</a>
         </div>
-         <div class="nav-item" id="grids">
+         <div class="nav-item" id="about">
             <a href="fourth.html" class="nav-link">Grids and Thingamajigs</a>
         </div>
     </div>
@@ -37,9 +37,21 @@
     <p><strong>Student ID:</strong> ID: 000364046    </p>
     <p><strong>Date:09/18/2023 </strong> 
 
-    <script> const x = 2 * Math.pow(12, 2) / 6 + 7; </script>
-    <script> console.log("The result of the equation is: " + x); </script>
-    <script> console.log("The type of the variable is: " + typeof x); </script>
+    <p> x= 2(12)^2/6+7 </p>
+    <script>
+// Evaluate the equation
+var x = 2 * Math.pow(12, 2) / 6 + 7;
+// Create a new paragraph element
+var para = document.createElement("p");
+// Create a text node with the result of the equation
+var node = document.createTextNode("The result of the equation is: " + x);
+// Append the text node to the paragraph element
+para.appendChild(node);
+// Append the paragraph element to the body of the document
+document.body.appendChild(para);
+// Print the type of the variable to the console
+console.log("The type of the variable is: " + typeof x);
+    </script>
 
 
 
